@@ -1,0 +1,18 @@
+.select-element {
+	background-color: #3bafda;
+    padding: 2px 5px;
+    color: #fff;
+    position: relative;
+}
+
+.remove-el {
+	position: absolute;
+    background-color: #6c757d;
+    border-radius: 100%;
+    font-size: 13px;
+    padding: 0 4px 2px;
+    line-height: 13px;
+    top: -5px;
+    right: -5px;
+    cursor: pointer;
+}

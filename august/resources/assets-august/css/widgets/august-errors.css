@@ -1,0 +1,4 @@
+.error-message {
+	background-color: var(--bs-red);
+	color: var(--bs-white);
+}

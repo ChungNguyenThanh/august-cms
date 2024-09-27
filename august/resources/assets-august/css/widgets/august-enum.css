@@ -1,0 +1,36 @@
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+	margin: 0;
+	display: inline-flex;
+	background-color: #3bafda;
+	padding: 2px 5px;
+	border-radius: 0;
+	font-size: .9rem;
+	overflow: unset;
+	border: unset;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	position: absolute;
+    background-color: #6c757d;
+    border-radius: 100%;
+    font-size: 13px;
+    padding: 0 4px 2px;
+    line-height: 13px;
+    top: -5px;
+    right: -10px;
+    cursor: pointer;
+    margin: 0 !important;
+    z-index: 1;
+    display: block;
+    color: #fff;
+    font-weight: 400;
+    left: unset;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	height: 100%;
+	padding: .45rem .9rem;
+}

@@ -1,0 +1,27 @@
+{
+    "name": "packages/august", 
+    "description": "Mô tả", 
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "DCSoft",
+            "email": ""
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Package\\August\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Package\\August\\Providers\\AugustServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}

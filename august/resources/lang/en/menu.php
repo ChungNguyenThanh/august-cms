@@ -1,0 +1,32 @@
+<?php
+return [
+    'admin' => 'Add element',
+    'new_menu' => 'New menu',
+    'back_to_list' => 'Back to list menu',
+    'settings' => 'Settings',
+    'menu_id' => 'ID',
+    'item_code' => 'Code',
+    'parent_item_menu' => 'Menu parent',
+    'menu_link' => 'Link',
+    'option_parent' => 'Parent category',
+    'btn_save' => 'Save',
+    'btn_apply' => 'Apply',
+    'btn_cancel' => 'Cancel',
+    'list' => 'List menu',
+    'add_new' => 'Add new menu',
+    'confirm_delete' => 'Are you sure you want to delete the menu?',
+    'app' => 'App',
+    'speed' => 'Speed',
+    'chat' => 'Chat',
+    'ablock_setting' => 'Ablock setting',
+    'user_field_type' => 'User field type',
+    'file_manager' => 'File Manager',
+    'site_setting' => 'Setting site',
+    'menu_setting' => 'Setting menu',
+    'menu_title' => 'Title',
+    'menu_group' => 'Menu group',
+    "add_new_group" => "Add group",
+    "group_name" => "Group menu label",
+    "group_code" => "Group menu code"
+];
+?>

@@ -1,0 +1,43 @@
+#access_modal .u-item:hover {
+	background-color: var(--bs-light);
+	cursor: pointer;
+}
+
+#access_modal .item-by {
+	cursor: pointer;
+}
+
+#access_modal .item-by.active {
+	background-color: var(--bs-info);
+	color: var(--bs-white);
+}
+
+#access_modal .item-choose {
+	position: relative;
+	width: fit-content;
+	background-color: var(--bs-light);
+}
+
+#access_modal .remove-usn {
+	position: absolute;
+	background-color: #6c757d;
+	border-radius: 100%;
+	font-size: 13px;
+	padding: 0 4px 2px;
+	line-height: 13px;
+	top: -5px;
+	right: -10px;
+	cursor: pointer;
+	color: #fff;
+}
+
+#access_modal .choose-group {
+	background-color: var(--bs-light);
+	cursor: pointer;
+}
+
+#access_modal .find-by {
+    border-left: none;
+    padding-left: 0px;
+    min-width: unset;
+}

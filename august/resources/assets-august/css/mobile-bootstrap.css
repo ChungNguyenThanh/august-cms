@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+    .mobile-flex-wrap {
+        -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    }
+
+    .mobile-w-100 {
+        width: 100% !important;
+    }
+
+    .mobile-text-start {
+        text-align: left !important;
+    }
+
+    .mobile-p-0 {
+        padding: 0rem !important;
+    }
+}
