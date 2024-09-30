@@ -8,11 +8,10 @@ use Illuminate\Support\Facades\Hash;
 use Package\August\Models\AExtendblockUserRole;
 use Package\August\Models\AExtendblockUsers;
 
-class AExtendblockUserRoleRelationSeeder extends Seeder {
-
+class AExtendblockUserRoleRelationSeeder extends Seeder
+{
     public function run() {
-        $seeder = new UserSeeder();
-        $user = AExtendblockUsers::where("email", "august-admin@dcsoft.com")->first();
+        $user = AExtendblockUsers::where('email', 'august-admin@dcsoft.com')->first();
         $role = AExtendblockUserRole::where('code', 'administrator')->first();
 
         if ($user && $role) {
